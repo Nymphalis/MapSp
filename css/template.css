@@ -1,0 +1,82 @@
+body {
+	font-family: 'Roboto', sans-serif !important;
+	margin: 0; padding: 0;
+}
+::-webkit-scrollbar-track
+{
+	background-color: rgb(66, 64, 64);
+}
+::-webkit-scrollbar
+{
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: rgba(8, 8, 8, 0.411);
+}
+::-webkit-scrollbar-thumb
+{
+	background-color: rgba(27, 26, 26, 0.39);
+}
+
+.map {
+	height: 100%; 
+  	width: 100%; 
+  	position:absolute; 
+  	top: 0; left: 0; 
+  	z-index: 0; 
+}
+.loginpanel {
+	box-sizing: border-box;
+	padding: 30px 15px 30px;
+	max-width: 300px;
+	height: 420px;
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	border-radius: 2px;
+	background: rgba(43, 40, 40, 0.425);
+	box-shadow: 0 0 8px rgba(0,0,0,0.1);
+	color: #eee;
+}
+
+form input, form textarea, form button {
+	box-sizing: border-box;
+	clear: both;
+	width: 100%;
+	padding: 12px;
+	margin: 5px 0 5px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	color: rgb(56, 51, 51);
+	text-align: center;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 0.9em;
+	
+}
+
+form label {
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	height: 1px;
+	width: 1px; 
+	margin: -1px; 
+	overflow: hidden; 
+	padding: 0; 
+	position: absolute; 
+}
+
+form button {
+	background: rgb(49, 46, 46);
+	cursor: pointer;
+	color: #eee;
+	transition: 0.2s;
+}
+form button:hover, form button:focus {
+	background: rgba(228, 228, 228, 0.507);
+	color: rgb(3, 3, 3);
+	outline: #555 solid 1px;
+}
+form input:hover, form textarea:hover, form input:focus, form textarea:focus, a:focus {
+	outline: #555 solid 1px;
+}
+
